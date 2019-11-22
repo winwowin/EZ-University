@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a054095-d39b-4dd7-9e20-7001170a5753" name="Default Changelist" comment="" />
+    <list default="true" id="5a054095-d39b-4dd7-9e20-7001170a5753" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/courseinfo/disabled_migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/trainor_kevin_ez_university.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trainor_kevin_ez_university.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseinfo/migrations/0009_load_instructor_test_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/courseinfo/disabled_migrations/0009_load_instructor_test_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseinfo/migrations/0010_loads_student_test_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/courseinfo/disabled_migrations/0010_loads_student_test_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courseinfo/migrations/0011_create_groups.py" beforeDir="false" afterPath="$PROJECT_DIR$/courseinfo/migrations/0011_create_groups.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +42,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/courseinfo/migrations/0011_create_groups.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -72,8 +89,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Python Script" />
         <option value="Setup Script" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -110,7 +127,6 @@
         <option value="$PROJECT_DIR$/courseinfo/templates/courseinfo/course_detail.html" />
         <option value="$PROJECT_DIR$/courseinfo/templates/courseinfo/login.html" />
         <option value="$PROJECT_DIR$/courseinfo/templates/courseinfo/base.html" />
-        <option value="$PROJECT_DIR$/courseinfo/migrations/0011_create_groups.py" />
         <option value="$PROJECT_DIR$/courseinfo/views.py" />
         <option value="$PROJECT_DIR$/trainor_kevin_ez_university/urls.py" />
         <option value="$PROJECT_DIR$/chaiyakunapruk_worawich_ez_university/settings.py" />
@@ -121,6 +137,7 @@
         <option value="$PROJECT_DIR$/trainor_kevin_ez_university/settings/base.py" />
         <option value="$PROJECT_DIR$/trainor_kevin_ez_university/requirements/base.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/courseinfo/migrations/0011_create_groups.py" />
       </list>
     </option>
   </component>
@@ -149,6 +166,17 @@
             <path>
               <item name="Chaiyakunapruk_Worawich_ez_university" type="b2602c69:ProjectViewProjectNode" />
               <item name="Chaiyakunapruk_Worawich_ez_university" type="462c0819:PsiDirectoryNode" />
+              <item name="courseinfo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chaiyakunapruk_Worawich_ez_university" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chaiyakunapruk_Worawich_ez_university" type="462c0819:PsiDirectoryNode" />
+              <item name="courseinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chaiyakunapruk_Worawich_ez_university" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chaiyakunapruk_Worawich_ez_university" type="462c0819:PsiDirectoryNode" />
               <item name="trainor_kevin_ez_university" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -167,7 +195,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/trainor_kevin_ez_university/settings/production.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/trainor_kevin_ez_university/settings/development.py" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -176,15 +204,15 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\worawich-win\PycharmProjects\Chaiyakunapruk_Worawich_ez_university\courseinfo\disabled_migrations" />
       <recent name="D:\Users\worawich-win\PycharmProjects\Chaiyakunapruk_Worawich_ez_university\trainor_kevin_ez_university\requirements" />
       <recent name="D:\Users\worawich-win\PycharmProjects\Chaiyakunapruk_Worawich_ez_university\trainor_kevin_ez_university\settings" />
       <recent name="D:\Users\worawich-win\PycharmProjects\Chaiyakunapruk_Worawich_ez_university\courseinfo\migrations" />
       <recent name="D:\Users\worawich-win\PycharmProjects\Chaiyakunapruk_Worawich_ez_university\courseinfo\templates\courseinfo" />
-      <recent name="D:\Users\worawich-win\PycharmProjects\Chaiyakunapruk_Worawich_ez_university\courseinfo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Users\worawich-win\PycharmProjects\Chaiyakunapruk_Worawich_ez_university\courseinfo\templates\courseinfo" />
@@ -377,7 +405,7 @@
       <workItem from="1573889535261" duration="61000" />
       <workItem from="1573889962748" duration="162000" />
       <workItem from="1573937153297" duration="5000" />
-      <workItem from="1574394810049" duration="2629000" />
+      <workItem from="1574394810049" duration="4175000" />
     </task>
     <task id="LOCAL-00001" summary="finish part 3 of Model tutorial.">
       <created>1537561697546</created>
@@ -390,13 +418,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22326000" />
+    <option name="totallyTimeSpent" value="23872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12751678" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24630873" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -409,7 +437,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="manage.py@trainor_kevin_ez_university" order="10" visible="true" weight="0.31586403" />
+      <window_info active="true" anchor="bottom" id="manage.py@trainor_kevin_ez_university" order="10" visible="true" weight="0.31586403" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="Python Console" order="13" />
@@ -494,7 +522,7 @@
     <entry file="file://$PROJECT_DIR$/courseinfo/migrations/0008_auto_20191101_0104.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/courseinfo/migrations/0009_load_instructor_test_data.py">
+    <entry file="file://$PROJECT_DIR$/courseinfo/disabled_migrations/0009_load_instructor_test_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="553" column="5" selection-start-line="553" selection-start-column="5" selection-end-line="553" selection-end-column="5" />
@@ -652,13 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/courseinfo/migrations/0011_create_groups.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/courseinfo/migrations/0012_create_group_permissions.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -669,7 +690,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/courseinfo/migrations/0010_loads_student_test_data.py">
+    <entry file="file://$PROJECT_DIR$/courseinfo/disabled_migrations/0010_loads_student_test_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11237">
           <caret line="661" column="43" selection-start-line="661" selection-start-column="43" selection-end-line="661" selection-end-column="43" />
@@ -717,6 +738,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courseinfo/migrations/0011_create_groups.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
         </state>
       </provider>
     </entry>
